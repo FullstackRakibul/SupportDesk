@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj": {}
+    "E:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj": {}
   },
   "projects": {
-    "D:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj": {
+    "E:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
+        "projectUniqueName": "E:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
         "projectName": "SupportDesk",
-        "projectPath": "D:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
+        "projectPath": "E:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
         "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
-        "outputPath": "D:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\obj\\",
+        "outputPath": "E:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
