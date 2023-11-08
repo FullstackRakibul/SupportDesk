@@ -5,6 +5,7 @@
         public int UserId { get; set; }
         public int EmpId { get; set; }
         public Boolean Admin { get; set; } = false;
+        public Boolean Agent { get; set; } = false;
 
         public string Name { get; set;}
         public string Phone { get; set; }

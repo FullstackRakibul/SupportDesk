@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
+      "projectUniqueName": "E:\\Rakibul hasan\\alpha projects\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
       "projectName": "SupportDesk",
-      "projectPath": "E:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
+      "projectPath": "E:\\Rakibul hasan\\alpha projects\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
       "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
-      "outputPath": "E:\\Rakibul hasan\\alpha projects\\projectManagement\\SupportDesk\\SupportDesk\\obj\\",
+      "outputPath": "E:\\Rakibul hasan\\alpha projects\\SupportDesk\\SupportDesk\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

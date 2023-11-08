@@ -3,12 +3,13 @@
     public class Ticket
     {
         public int Id { get; set; }
-        public User User { get; set; }
+        public User CreatedBy { get; set; }
         public int TicketId { get; set; }
         public string Subject { get; set; }
         public string Description { get; set; }
-        public Boolean Status { get; set; }
-        public Agent Agent { get; set; }
+        public IFormFile Attachments { get; set; }
+        public bool Status { get; set; }
+        public Agent AcknowledgedBy { get; set; }
         public string Priority { get; set; }
         public string Type { get; set; }
         public DateTime OpenDate { get; set; }
