@@ -15,6 +15,7 @@ module.exports = {
       secondary: '#6E4441',
       white: '#fff',
       black: '#000',
+      bgColor : '#F9FFFE',
 
     }
   },
