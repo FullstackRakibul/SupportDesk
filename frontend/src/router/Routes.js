@@ -12,10 +12,23 @@ import Agent from "../containers/Agent";
 
 const routes = (
   <Switch>
-    <Route exact path="/" component={Home} />
-    <Route path="/ticket" component={Ticket} />
-    <Route path="/agent" component={Agent} />
-    <Route path="/user" component={User} />
+    <Route
+      exact
+      path="/"
+      component={Home}
+    />
+    <Route
+      path="/ticket"
+      component={<Ticket />}
+    />
+    <Route
+      path="/agent"
+      component={Agent}
+    />
+    <Route
+      path="/user"
+      component={User}
+    />
   </Switch>
 );
 
