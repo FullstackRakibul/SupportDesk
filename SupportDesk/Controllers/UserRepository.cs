@@ -1,4 +1,4 @@
-﻿using SupportDesk.Model;
+﻿using SupportDesk.Models;
 
 namespace SupportDesk.Controllers
 {

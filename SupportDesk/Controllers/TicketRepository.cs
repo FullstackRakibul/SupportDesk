@@ -1,4 +1,4 @@
-﻿using SupportDesk.Model;
+﻿using SupportDesk.Models;
 
 namespace SupportDesk.Controllers
 {
@@ -13,8 +13,8 @@ namespace SupportDesk.Controllers
                     AcknowledgedBy = new Agent{ AgentId=1},
                     Subject = "This is a test subject",
                     Description ="",
-                    Status =true,
-                    Priority ="Normal",
+                    TicketStatus =TicketStatus.Closed,
+                    Priority =Priority.Regular,
                     Type ="Final Settlement",
     },
                 new Ticket
@@ -25,9 +25,9 @@ namespace SupportDesk.Controllers
                     AcknowledgedBy = new Agent{ AgentId=2},
                     Subject = "This is a test subject",
                     Description ="",
-                    Status =true,
-                    Priority ="High",
-                    Type ="Final Settlement",
+                    TicketStatus =TicketStatus.InProgress,
+                    Priority = Priority.Regular,
+                    Type ="Final Settlement 2nd",
 
                 },
         };

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rakibul hasan\\alpha projects\\SupportDesk\\SupportDesk\\SupportDesk.csproj": {}
+    "G:\\Rakibbhai\\DotNet\\alpha\\supportDesk\\SupportDesk\\SupportDesk.csproj": {}
   },
   "projects": {
-    "E:\\Rakibul hasan\\alpha projects\\SupportDesk\\SupportDesk\\SupportDesk.csproj": {
+    "G:\\Rakibbhai\\DotNet\\alpha\\supportDesk\\SupportDesk\\SupportDesk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rakibul hasan\\alpha projects\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
+        "projectUniqueName": "G:\\Rakibbhai\\DotNet\\alpha\\supportDesk\\SupportDesk\\SupportDesk.csproj",
         "projectName": "SupportDesk",
-        "projectPath": "E:\\Rakibul hasan\\alpha projects\\SupportDesk\\SupportDesk\\SupportDesk.csproj",
-        "packagesPath": "C:\\Users\\Rakib\\.nuget\\packages\\",
-        "outputPath": "E:\\Rakibul hasan\\alpha projects\\SupportDesk\\SupportDesk\\obj\\",
+        "projectPath": "G:\\Rakibbhai\\DotNet\\alpha\\supportDesk\\SupportDesk\\SupportDesk.csproj",
+        "packagesPath": "C:\\Users\\tamal\\.nuget\\packages\\",
+        "outputPath": "G:\\Rakibbhai\\DotNet\\alpha\\supportDesk\\SupportDesk\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Rakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\tamal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +40,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -68,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
