@@ -5,11 +5,20 @@ using System.Collections.Generic;
 using System.IO;
 using static SupportDesk.Service.EmailBoxService;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using SupportDesk.Models;
+using SupportDesk.Model;
 
 namespace SupportDesk.Service
 {
     public class EmailBoxService
     {
+        private readonly SupportDeskDBContext _dbContext;
+
+        public EmailBoxService(SupportDeskDBContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
         public class EmailDetails
         {
             public string Subject { get; set; } = "";
@@ -56,6 +65,22 @@ namespace SupportDesk.Service
                         Attachments = GetAttachmentFilenames(message)
 
                     };
+                    // create mail in Ticket 
+                    //var ticket = new Ticket
+                    //{
+                    //    Subject = emailDetails.Subject,
+                    //    Body = emailDetails.Body,
+                    //    From = emailDetails.From,
+                    //    To = emailDetails.To,
+                    //    Cc = emailDetails.Cc,
+                    //    Bcc = emailDetails.Bcc,
+                    //    Attachments = emailDetails.Attachments
+                    //    // Set other properties accordingly
+                    //};
+
+                    //_dbContext.Tickets.Add(ticket);
+                    //_dbContext.SaveChanges();
+
                     emailDetailsList.Add(emailDetails);
                 }
                 client.Disconnect(true);

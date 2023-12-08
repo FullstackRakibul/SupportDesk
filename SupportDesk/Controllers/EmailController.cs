@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Org.BouncyCastle.Security;
 using SupportDesk.Helper;
+using SupportDesk.Models;
 using SupportDesk.Service;
+using static SupportDesk.Service.EmailBoxService;
 
 namespace SupportDesk.Controllers
 {
@@ -50,6 +54,7 @@ namespace SupportDesk.Controllers
         public IActionResult GetEmails()
         //public async Task<IActionResult> GetEmails()
         {
+            
             try {
                 var emailDetailsList = _emailBoxService.GetEmailDetails();
                 return Ok(emailDetailsList);
